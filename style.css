@@ -1,0 +1,71 @@
+/* Global ----------- */
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Inter:wght@100;200;300;400;600;700&family=Karla:wght@200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=Poppins:wght@200;400;500;600;700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+body {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+}
+h2 {
+  font-size: 1rem;
+  padding: 20px;
+  font-weight: 600;
+}
+p {
+  color: #d2d2d2;
+  padding: 0;
+  margin: 0;
+}
+span {
+  color: #d2d2d2;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+/* ------------------- */
+
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+header {
+  background: linear-gradient(246.26deg, #585dfe 0%, #fb3796 100%);
+}
+
+section {
+  background: #1f2937;
+  gap: 10px;
+}
+
+.unit {
+  outline: none;
+  width: 100%;
+  height: 30%;
+  background-color: inherit;
+  border: none;
+  color: white;
+  font-family: "Cairo", sans-serif;
+  text-align: center;
+  font-size: 92px;
+  font-weight: 500;
+}
+.unit::placeholder {
+  color: white;
+  font-size: 40px;
+}
+
+.item {
+  padding-bottom: 10px;
+}
